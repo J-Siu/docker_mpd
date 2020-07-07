@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mpd:
+    restart: unless-stopped
+    image: jsiu/mpd
+    container_name: mpd
+    logging:
+      options:
+        tag: "{{.Name}}"
+    ports:
+      - "${MPD_PORT}:6600"
+    volumes:
+      - ${MPD_CNF}:/mpd.conf
+      - ${MPD_PATH_MUSIC}:/mpd/music
+      - ${MPD_PATH_MPD}:/mpd/.mpd
+    devices:
+      - ${MPD_SND}
+    environment:
+      - PUID=${MPD_UID}
+      - PGID=${MPD_GID}
+    cap_add:
+      - SYS_NICE
