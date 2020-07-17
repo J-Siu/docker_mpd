@@ -1,4 +1,4 @@
-Docker MPD Lite with UID/GID + audio GID handling.
+Docker - MPD with UID/GID + audio GID handling.
 
 ### Build
 
