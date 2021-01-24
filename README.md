@@ -140,6 +140,8 @@ docker-compose up
   - Auto update to 0.22-r1
 - 0.22.3-r1
   - Auto update to 0.22.3-r1
+- 0.22.4-r0
+  - Auto update to 0.22.4-r0
 <!--CHANGE-LOG-END-->
 
 ### License
