@@ -110,7 +110,7 @@ docker-compose up
 
 ### Repository
 
-- [docker_compose](https://github.com/J-Siu/docker_mpd)
+- [docker_mpd](https://github.com/J-Siu/docker_mpd)
 
 ### Contributors
 
