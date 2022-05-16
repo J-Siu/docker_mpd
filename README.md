@@ -1,4 +1,21 @@
-Docker - MPD with UID/GID + audio GID handling.
+# Docker - MPD with UID/GID + audio GID handling [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
+
+### Table Of Content
+<!-- TOC -->
+
+- [Build](#build)
+- [Usage](#usage)
+  - [Host Directories and Volume Mapping](#host-directories-and-volume-mapping)
+  - [MPD_UID / MPD_GID](#mpd_uid--mpd_gid)
+  - [Run](#run)
+  - [Debug / Custom Config](#debug--custom-config)
+  - [Compose](#compose)
+- [Repository](#repository)
+- [Contributors](#contributors)
+- [Change Log](#change-log)
+- [License](#license)
+
+<!-- /TOC -->
 
 ### Build
 
