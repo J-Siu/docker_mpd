@@ -16,7 +16,7 @@
 - [License](#license)
 
 <!-- /TOC -->
-
+<!--more-->
 ### Build
 
 ```sh
