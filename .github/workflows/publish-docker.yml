@@ -21,8 +21,8 @@ jobs:
         run: |
           NAME=$(grep 'LABEL name' Dockerfile|tail -1|cut -d= -f2|sed 's/"//g')
           VER=$(grep 'LABEL version' Dockerfile|tail -1|cut -d= -f2|sed 's/"//g')
-          echo "::set-output name=name::${NAME}"
-          echo "::set-output name=ver::${VER}"
+          echo "name={NAME}" >> $GITHUB_OUTPUT
+          echo "ver={VER}" >> $GITHUB_OUTPUT
       - name: Build and push version
         uses: docker/build-push-action@v2
         with:
