@@ -1,7 +1,7 @@
 # docker_mpd
 FROM alpine:edge
 
-LABEL version="0.24.5-r1"
+LABEL version="0.24.5-r1-p0"
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="mpd"
 LABEL usage="https://github.com/J-Siu/docker_mpd/blob/master/README.md"
