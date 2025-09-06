@@ -22,6 +22,7 @@ fi
 
 # detect and use host audio GID from /dev/snd/timer
 AGID=$(stat -c %g /dev/snd/timer)
+deluser mpd
 delgroup audio
 addgroup -g ${AGID} audio
 
