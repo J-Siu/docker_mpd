@@ -6,7 +6,7 @@
 - [Build](#build)
 - [Usage](#usage)
   - [Host Directories and Volume Mapping](#host-directories-and-volume-mapping)
-  - [MPD_UID / MPD_GID](#mpd_uid--mpd_gid)
+  - [MPD\_UID / MPD\_GID](#mpd_uid--mpd_gid)
   - [Run](#run)
   - [Debug / Custom Config](#debug--custom-config)
   - [Compose](#compose)
@@ -193,6 +193,8 @@ docker-compose up
   - Auto update to 0.24.5-r0
 - 0.24.5-r1
   - Auto update to 0.24.5-r1
+- 0.24.5-r1-p1
+  - Fix #1 - `start.sh` needs to delete user mpd
 <!--CHANGE-LOG-END-->
 
 ### License
