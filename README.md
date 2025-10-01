@@ -197,6 +197,8 @@ docker-compose up
   - Fix #1 - `start.sh` needs to delete user mpd
 - 0.24.5-r2
   - Auto update to 0.24.5-r2
+- 0.24.5-r2-p0
+  - Fix Github actions error
 <!--CHANGE-LOG-END-->
 
 ### License
