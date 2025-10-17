@@ -1,0 +1,64 @@
+- 0.21.14
+  - Matching mpd version number
+  - Base image: alpine:edge
+  - mpd version: 0.21.14
+- 0.21.19
+  - mpd version: 0.21.19
+- 0.21.22
+  - mpd version: 0.21.22
+- 0.21.23
+  - mpd version: 0.21.23
+- 0.21.24
+  - mpd version: 0.21.24
+  - start.sh
+    - Use exec so start.sh can exit
+    - Add exit code 1
+    - Remove delgroup/deluser ${PUSR}
+- 0.21.25-r0
+  - Auto update to 0.21.25-r0
+- 0.22-r1
+  - Auto update to 0.22-r1
+- 0.22.3-r1
+  - Auto update to 0.22.3-r1
+- 0.22.4-r0
+  - Auto update to 0.22.4-r0
+- 0.22.6-r0
+  - Auto update to 0.22.6-r0
+- 0.22.6-r1
+  - Auto update to 0.22.6-r1
+- 0.22.8-r2
+  - Auto update to 0.22.8-r2
+- 0.22.9-r0
+  - Auto update to 0.22.9-r0
+- 0.23.6-r1
+  - Auto update to 0.23.6-r1
+- 0.23.6-r1-p1
+  - Add docker push github workflow
+- 0.23.6-r2
+  - Auto update to 0.23.6-r2
+- 0.23.7-r0
+  - Auto update to 0.23.7-r0
+- 0.23.7-r1
+  - Auto update to 0.23.7-r1
+- 0.23.7-r3
+  - Auto update to 0.23.7-r3
+- 0.23.7-r4
+  - Auto update to 0.23.7-r4
+- 0.23.8-r2
+  - Auto update to 0.23.8-r2
+- 0.23.12-r5
+  - Auto update to 0.23.12-r5
+- 0.23.13-r7
+  - Auto update to 0.23.13-r7
+- 0.23.15-r4
+  - Auto update to 0.23.15-r4
+- 0.24.5-r0
+  - Auto update to 0.24.5-r0
+- 0.24.5-r1
+  - Auto update to 0.24.5-r1
+- 0.24.5-r1-p1
+  - Fix #1 - `start.sh` needs to delete user mpd
+- 0.24.5-r2
+  - Auto update to 0.24.5-r2
+- 0.24.5-r2-p0
+  - Fix Github actions error
