@@ -72,3 +72,5 @@
   - Auto update to 0.24.9-r0
 - 0.24.10-r0
   - Auto update to 0.24.10-r0
+- 0.24.12-r0
+  - Auto update to 0.24.12-r0
