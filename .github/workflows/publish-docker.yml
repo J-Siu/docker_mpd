@@ -29,7 +29,9 @@ jobs:
         run: |
           NAME=$(grep 'LABEL name' Dockerfile|tail -1|cut -d= -f2|sed 's/"//g')
           VER=$(grep 'ARG VERSION' Dockerfile|tail -1|cut -d= -f2|sed 's/"//g')
+          echo "name=$NAME"
           echo "name=$NAME" >> $GITHUB_OUTPUT
+          echo "ver=$VER"
           echo "ver=$VER" >> $GITHUB_OUTPUT
 
       - name: Log in to Docker Hub
