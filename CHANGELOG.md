@@ -80,3 +80,5 @@
   - Auto update to 0.24.13-r1
 - 0.24.14-r1
   - Auto update to 0.24.14-r1
+- 0.24.15-r0
+  - Auto update to 0.24.15-r0
