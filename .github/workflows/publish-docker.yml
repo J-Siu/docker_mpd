@@ -27,7 +27,7 @@ jobs:
       - name: Extract Docker image metadata
         id: img
         run: |
-          NAME=$(grep 'LABEL name' Dockerfile|head -1|cut -d= -f2|sed 's/"//g')
+          NAME=$(grep 'ARG PKG' Dockerfile|head -1|cut -d= -f2|sed 's/"//g')
           VER=$(grep 'ARG VER' Dockerfile|head -1|cut -d= -f2|sed 's/"//g')
           echo "name=$NAME"
           echo "name=$NAME" >> $GITHUB_OUTPUT
