@@ -1,5 +1,5 @@
 # docker_mpd
-FROM alpine:latest-stable
+FROM alpine:latest
 ARG PKG="mpd"
 ARG VER="0.24.19-r0"
 ARG USR="https://github.com/J-Siu"
