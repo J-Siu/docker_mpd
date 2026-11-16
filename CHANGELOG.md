@@ -86,3 +86,5 @@
   - Auto update to 0.24.15-r1
 - 0.24.18-r0
   - Auto update to 0.24.18-r0
+- 0.24.19-r0
+  - Auto update to 0.24.19-r0

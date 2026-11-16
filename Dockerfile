@@ -1,7 +1,7 @@
 # docker_mpd
 FROM alpine:edge
 ARG PKG="mpd"
-ARG VER="0.24.18-r0"
+ARG VER="0.24.19-r0"
 ARG USR="https://github.com/J-Siu"
 LABEL version=${VER}
 LABEL maintainers="[John Sing Dao Siu](${USR})"
